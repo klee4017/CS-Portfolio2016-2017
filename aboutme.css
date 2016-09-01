@@ -24,5 +24,13 @@ h1{
     margin-right:60px;
     font-size:25px;
     text-decoration: none;
-    
+}
+
+.info{
+    border:1px solid black;
+    margin-left:175px;
+    margin-right:175px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align:center;
 }
