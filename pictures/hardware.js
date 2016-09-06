@@ -12,3 +12,6 @@ var monitor = document.getElementById("monitor")
 
 
 
+if ("click", function(){
+    motherboard.innerHTML == "The motherboard contains the physical arrangements of a computer’s basic circuitry and components. It also directs power to all the other computer components as well as allowing all the components to communicate with each other."
+;});
