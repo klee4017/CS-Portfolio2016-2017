@@ -1,6 +1,5 @@
 #navbar{
     text-align:center;
-
 }
 #navbar li{
     display:inline-block;
@@ -35,8 +34,8 @@ div{
 	}
 
 .flip-container, .front, .back {
-	width: 450px;
-	height: 425px;
+	width: 485px;
+	height: 450px;
 }
 
 /* flip speed goes here */
@@ -45,7 +44,7 @@ div{
 	transform-style: preserve-3d;
 
 	position: relative;
-	left:325px;
+	left:0;
 }
 
 
@@ -71,3 +70,6 @@ div{
 	transform: rotateY(180deg);
 }
 
+.front, .back{
+	border: solid black 3px;
+}
