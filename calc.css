@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 
-#numberButtons li{
+#buttons li{
     display:inline-block;
     border:2px solid black;
     font-size:40px;
@@ -21,4 +21,14 @@ a{
     padding-right:15px;
     padding-top:5px;
     padding-bottom:5px;
+}
+
+#display{
+    border:3px solid black;
+    font-size:35px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:3px;
+    padding-bottom:3px;
+    width:300px;
 }
