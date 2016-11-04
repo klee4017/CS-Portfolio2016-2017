@@ -22,14 +22,20 @@ var equals = document.getElementById("equals");
 var display = document.getElementById("display");
 var number = document.getElementsByClassName("number");
 var operator = document.getElementsByClassName("operator");
-var button = document.querySelectorAll("button");
+var button = document.querySelectorAll("li.button");
 
 
-equals.addEventListener("click", showEquals);
-number.addEventListener("click", showNumber);
-operator.addEventListener("click", operate)
-button.addEventListener("click", 
-    function showButton (evt.target.button){
-        display.innerHTML
+
+
+for(var i = 0; i < button.length; i++){
+
+button[i].addEventListener("click", function (evt){
+    
+    var clickedBtn = evt.target;
+        clickedBtn.innerHTML;
+        display.innerHTML = clickedBtn.innerHTML;
     }
-)
+);
+}
+
+
