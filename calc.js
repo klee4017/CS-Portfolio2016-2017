@@ -1,15 +1,6 @@
 // JavaScript File
 
-var one = document.getElementById("one")
-var two = document.getElementById("two");
-var three = document.getElementById("three");
-var four = document.getElementById("four");
-var five = document.getElementById("five");
-var six = document.getElementById("six");
-var seven = document.getElementById("seven");
-var eight = document.getElementById("eight");
-var nine = document.getElementById("nine");
-var zero = document.getElementById("zero");
+
 var add = document.getElementById("add");
 var subtract = document.getElementById("subtract");
 var multiply = document.getElementById("multiply");
@@ -26,9 +17,10 @@ var button = document.querySelectorAll("li.button");
 
 
 
-
+//tells program to use the value of the button
 for(var i = 0; i < button.length; i++){
-
+//tells program to listen for a "click".
+//When it "hears" the click, it will display the innerHTML of the button the is clicked into the display box.
 button[i].addEventListener("click", function (evt){
     
     var clickedBtn = evt.target;
