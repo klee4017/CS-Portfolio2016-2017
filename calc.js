@@ -1,19 +1,11 @@
 // JavaScript File
 
-
-var add = document.getElementById("add");
-var subtract = document.getElementById("subtract");
-var multiply = document.getElementById("multiply");
-var divide = document.getElementById("divide");
-var posNeg = document.getElementById("posNeg");
-var decimal = document.getElementById("decimal");
-var exponent = document.getElementById("exponent");
-var squareRoot = document.getElementById("squareRoot");
 var equals = document.getElementById("equals");
 var display = document.getElementById("display");
 var number = document.getElementsByClassName("number");
 var operator = document.getElementsByClassName("operator");
 var button = document.querySelectorAll("li.button");
+var clear = document.getElementById("clear");
 
 
 
@@ -25,9 +17,23 @@ button[i].addEventListener("click", function (evt){
     
     var clickedBtn = evt.target;
         clickedBtn.innerHTML;
-        display.innerHTML = clickedBtn.innerHTML;
+        display.innerHTML = display.innerHTML + clickedBtn.innerHTML;
     }
-);
-}
+);}
 
+
+clear.addEventListener("click", function(){
+    
+    display.innerHTML = " ";
+});
+
+
+equals.addEventListener("click", function(){
+    // alert(eval(display.innerHTML))
+    
+    var ans;
+    ans = eval(display.innerHTML);
+    // alert(ans);
+    display.innerHTML = ans;
+});
 
