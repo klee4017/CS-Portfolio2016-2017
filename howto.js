@@ -14,6 +14,6 @@ hardwareButton.addEventListener("click", function(){
 
 
 calcButton.addEventListener("click", function(){
-    displayText.innerHTML = "";
+    displayText.innerHTML = " Calculator infomation under construction.";
     displayInfo.innerHTML = "";
 });
