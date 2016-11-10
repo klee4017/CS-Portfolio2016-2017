@@ -1,0 +1,26 @@
+#header{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#hardwareButton , #calcButton{
+    font-size: 20px;
+}
+div{
+    margin-left:75px;
+    margin-right:80px;
+    margin-top:25px;
+    text-align: justify;
+    
+}
+#displayInfo{
+    column-count: 2;
+}
+
+pre{
+    border: solid black 2px;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
