@@ -1,5 +1,6 @@
 #navbar{
     text-align:center;
+    white-space:nowrap;
 }
 #navbar li{
     display:inline-block;
