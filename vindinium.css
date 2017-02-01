@@ -1,0 +1,41 @@
+
+h1{
+    font-size:45px;
+    text-decoration:none;
+     text-align: center;
+}
+h2{
+    font-size:30px;
+     text-align: center;
+    
+}
+h3{
+    text-align:center;
+}
+p{
+    margin-left:200px;
+    margin-right:200px;
+    font-size:17px;
+     text-align: center;
+}
+.botPic{
+    width:40px;
+}
+#map{
+    display: block;
+    margin: auto;}
+#vindLink{
+    color:#000033;
+    text-decoration:underline;
+    
+}
+
+.code{
+    border:2px ridge #bfbfbf;
+    margin-left:175px;
+    margin-right:175px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+}

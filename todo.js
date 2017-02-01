@@ -7,9 +7,6 @@ var dropdown = document.getElementById("dropdown");
 var submitButton = document.getElementById("submitButton");
 // area where the text will be displayed
 var display = document.getElementById("display");
-//todolist variable in case color doesn't show up
-var task = "<p>" + input.value + "<p>";
-
 
 
 //adds whatever is placed in the input below the input box
@@ -46,21 +43,7 @@ submitButton.addEventListener('click', function(){
     if (dropdown.value === "grey"){
         display.innerHTML = display.innerHTML + colorGrey;
     }
-    
-    
-    
-//     display.innerHTML = display.innerHTML + task;
-
-    
 });
-
-
-
-
-
-
-
-
 
 
 //deletes text when it's clicked if it has a strikethrough
