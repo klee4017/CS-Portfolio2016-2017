@@ -21,6 +21,12 @@ p{
 .botPic{
     width:40px;
 }
+.minePic{
+    height:50px;
+}
+.tavernPic{
+    height:40px;
+}
 #map{
     display: block;
     margin: auto;}
