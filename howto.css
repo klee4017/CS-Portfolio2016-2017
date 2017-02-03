@@ -6,15 +6,14 @@
 #hardwareButton , #todoButton{
     font-size: 20px;
 }
-div{
+
+#displayInfo{
+    font-size:15px;
+    column-count: 2;
     margin-left:75px;
     margin-right:80px;
     margin-top:25px;
     text-align: justify;
-    
-}
-#displayInfo{
-    column-count: 2;
 }
 
 pre{
@@ -23,4 +22,61 @@ pre{
     padding-right:15px;
     padding-top:20px;
     padding-bottom:20px;
+}
+#displayText{
+    font-size:20px;
+    text-align:center;
+    margin-left:75px;
+    margin-right:80px;
+    margin-top:25px;
+}
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 510px;
+	height: 190px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+.front, .back{
+    text-align :center;
+    border: 3px solid black;
+    font-size:40px;
+    padding-top: 10px;
 }
