@@ -27,6 +27,10 @@ p{
 .tavernPic{
     height:40px;
 }
+.rockPic{
+    height:40px;
+}
+
 #map{
     display: block;
     margin: auto;}
