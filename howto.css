@@ -3,12 +3,12 @@
     margin-right:50px;
 }
 
-#hardwareButton , #todoButton , #finderButton{
+#hardwareButton , #todoButton , #finderHTML , #finderJS{
     font-size: 20px;
 }
 
 #displayInfo{
-    font-size:15px;
+    font-size:17px;
     column-count: 2;
     margin-left:75px;
     margin-right:80px;
